@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Takoradi, Ghana, GMT",
   locationLink: "https://www.google.com/maps/place/Takoradi/",
   about:
-    "Software Engineer & Fullstack Web3developer with a passion for crafting exceptional products.",
+    "Software Engineer",
   summary:
-    "As a Software Engineer and Fullstack Web3 Developer, I bring a comprehensive skill set to create innovative solutions with an acute attention to detail.",
+    "As a Software Engineer, I bring a comprehensive skill set to create innovative solutions with an acute attention to detail.",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/96825758?s=400&u=2b6df1c4538901a8d2e15cedabe9557dfd75741d&v=4",
   personalWebsiteUrl: "https://jarocki.me",
@@ -70,18 +70,19 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description:
-        "Worked with team to implement new features improving the way developers ship the code, . Technologies: React, TypeScript, GraphQL,Vue,WordPres",
+        "Lead a team to implement new features, improving the way developers ship the code. Technologies: React, TypeScript, GraphQL",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "Solidity",
+    "Python",
     "Rust",
+    "Solidity",
     "React/Next.js/",
-    "Vuejs",
-    "Angularjs",
-    "Node.js",
+    "Vuejs/Nuxjs",
+    "AngularJS",
+    "Node.js/Express/Hono",
     "Foundry",
     "Hardhat",
     "GraphQL",
@@ -90,7 +91,7 @@ export const RESUME_DATA = {
     {
       title: "Acme Dashboard",
       techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "A platform to see invoice and customers",
+      description: "A platform to see invoices and customers",
       logo: ConsultlyLogo,
       link: {
         label: "nextjs-dashboard-dun-xi-36.vercel.app",
