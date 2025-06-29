@@ -30,6 +30,7 @@ export const RESUME_DATA = {
     "As a Software Engineer, I bring a comprehensive skill set to create innovative solutions with an acute attention to detail.",
   avatarUrl:
     "https://media.licdn.com/dms/image/v2/D4E03AQEqHFKm4E8TMw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1685114017093?e=1756944000&v=beta&t=CfkGoG4tvSQO4RCmUB84d-YnYcvFMIQPridnKLHJwmM",
+     personalWebsiteUrl: "",
   contact: {
     email: "jojomensah89@gmail.com",
     tel: "+233597880519",
