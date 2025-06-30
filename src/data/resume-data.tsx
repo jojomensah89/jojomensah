@@ -94,6 +94,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Spendy",
+      techStack: ["TypeScript", "Next.js", "Prisma", "Tailwind CSS"],
+      description:
+        "Spendy is a simple, fast, and secure way to track your spending. Features include categorizing spending, viewing spending history, and exporting to CSV.",
+      logo: Minimal, // Using MinimalLogo as a placeholder
+      link: {
+        label: "spendy-ashy.vercel.app",
+        href: "https://spendy-ashy.vercel.app/",
+      },
+    },
+    {
       title: "Acme Dashboard",
       techStack: ["Side Project", "TypeScript", "Next.js"],
       description: "A platform to see invoices and customers",
