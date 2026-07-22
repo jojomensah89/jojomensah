@@ -6,8 +6,7 @@ export const RESUME_DATA = {
   about: "Software Engineer building dependable digital products.",
   summary:
     "I build thoughtful product experiences across the frontend, backend, and the systems that keep them reliable.",
-  avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D4E03AQEqHFKm4E8TMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685114017093?e=1786579200&v=beta&t=apN5ktvdU_pWNNEhC6_eV000MaFGofbOa2mlF9RqQEc",
+  avatarUrl: "/profile.jpg",
   contact: {
     email: "ebenezerjojomensah16@gmail.com",
     github: "https://github.com/jojomensah89",
