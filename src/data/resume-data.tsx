@@ -1,118 +1,117 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-
 export const RESUME_DATA = {
   name: "Ebenezer Jojo Mensah",
   initials: "EJM",
-  location: "Takoradi, Ghana, GMT",
+  location: "Takoradi, Ghana",
   locationLink: "https://www.google.com/maps/place/Takoradi/",
-  about:
-    "Software Engineer",
+  about: "Software Engineer building dependable digital products.",
   summary:
-    "As a Software Engineer, I bring a comprehensive skill set to create innovative solutions with an acute attention to detail.",
+    "I build thoughtful product experiences across the frontend, backend, and the systems that keep them reliable.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D4E03AQEqHFKm4E8TMw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1685114017093?e=1756944000&v=beta&t=CfkGoG4tvSQO4RCmUB84d-YnYcvFMIQPridnKLHJwmM",
-     personalWebsiteUrl: "",
+    "https://media.licdn.com/dms/image/v2/D4E03AQEqHFKm4E8TMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1685114017093?e=1786579200&v=beta&t=apN5ktvdU_pWNNEhC6_eV000MaFGofbOa2mlF9RqQEc",
   contact: {
-    email: "jojomensah89@gmail.com",
-    tel: "+233597880519",
-    social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/jojomensah89",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ebenezer-jojo-mensah-0554a9230/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://twitter.com/jojomensah89",
-        icon: XIcon,
-      },
-    ],
+    email: "ebenezerjojomensah16@gmail.com",
+    github: "https://github.com/jojomensah89",
+    linkedin: "https://www.linkedin.com/in/jojomensah/",
   },
-  education: [
+  experience: [
     {
-      school: "Kwame Nkrumah University of Science and Technology",
-      degree: "Bachelor's Degree in Geological Engineering",
-      start: "2016",
-      end: "2020",
-    },
-  ],
-  work: [
-    {
-      company: "Amalitech",
-      link: "https://amalitech.com/",
-      badges: ["Hybrid"],
-      title: "Frontend Developer",
-      logo: ParabolLogo,
-      start: "2023",
-      end: "2024",
+      company: "AmaliTech",
+      role: "Software Engineer",
+      period: "May 2023 — Sep 2025",
       description:
-        "Lead a team to implement new features, improving the way developers ship the code. Technologies: React, TypeScript, GraphQL",
+        "Built and refined product features across modern web applications, working with Vue, React, TypeScript, GraphQL, and collaborative delivery teams.",
+    },
+    {
+      company: "AmaliTech",
+      role: "Graduate Trainee",
+      period: "Apr 2022 — Apr 2023",
+      description:
+        "Developed production engineering foundations through structured training, team delivery, and modern frontend practice.",
+    },
+    {
+      company: "Lands Commission Ghana",
+      role: "Graduate Geological Engineer",
+      period: "Sep 2020 — Aug 2021",
+      description:
+        "Supported geospatial and land-survey work, bringing a systems-oriented engineering mindset into software.",
+    },
+    {
+      company: "AYA Engineering Ltd",
+      role: "Engineering Intern",
+      period: "Jun 2019 — Aug 2019",
+      description:
+        "Gained early professional experience in field engineering, structural geology, and collaborative technical work.",
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "Rust",
-    "Solidity",
-    "React",
-    "Next.js",
-    "Vue.js",
-    "Nuxt",
-    "AngularJS",
-    "Node.js/Express/Hono",
-    "FastAPI",
-    "AI Integration (OpenAI, GEMINI, CLAUDE)",
-    "AI Agents(smolagents,llamaindex,langraph)",
-    "Foundry",
-    "Hardhat",
-    "GraphQL",
+  capabilities: [
+    {
+      title: "Product engineering",
+      items: ["React", "TypeScript", "Next.js", "TanStack Start", "Vue.js"],
+    },
+    {
+      title: "Backend & infrastructure",
+      items: ["Node.js", "Hono", "PostgreSQL", "Cloudflare Workers", "Drizzle"],
+    },
+    {
+      title: "AI & automation",
+      items: ["OpenAI", "Gemini", "AI SDK", "LangGraph", "Background queues"],
+    },
+    {
+      title: "Tools & practices",
+      items: ["GitHub", "GraphQL", "Testing", "CI/CD", "Product design"],
+    },
   ],
   projects: [
     {
-      title: "Spendy",
-      techStack: ["TypeScript", "Next.js", "Prisma", "Tailwind CSS"],
+      name: "RefFlow",
+      eyebrow: "Flagship product · KNUST-first pilot",
       description:
-        "Spendy is a simple, fast, and secure way to track your spending. Features include categorizing spending, viewing spending history, and exporting to CSV.",
-      logo: Minimal, // Using MinimalLogo as a placeholder
-      link: {
-        label: "spendy-ashy.vercel.app",
-        href: "https://spendy-ashy.vercel.app/",
-      },
+        "A structured academic-request platform that helps students request recommendation letters and gives lecturers a clear workspace to manage and complete them.",
+      contribution:
+        "Designed role-aware experiences and the request lifecycle across student, lecturer, and admin workflows. Built the queue-backed notification path and idempotency safeguards for notifications and payment callbacks.",
+      stack: [
+        "React",
+        "TanStack Start",
+        "Cloudflare Workers",
+        "PostgreSQL",
+        "Better Auth",
+        "Gemini",
+      ],
+      href: "https://refflow.jsd-technologies.com/",
+      linkLabel: "Visit RefFlow",
+      private: true,
     },
     {
-      title: "Acme Dashboard",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "A platform to see invoices and customers",
-      logo: ConsultlyLogo,
-      link: {
-        label: "nextjs-dashboard-dun-xi-36.vercel.app",
-        href: "https://nextjs-dashboard-dun-xi-36.vercel.app/",
-      },
+      name: "Spendy",
+      eyebrow: "Personal finance product",
+      description:
+        "A personal spending tracker for categorising transactions, reviewing spending history, and exporting records to CSV.",
+      contribution:
+        "Built a focused Next.js product experience with secure authentication, database-backed spending records, responsive dashboards, and export-ready reporting.",
+      stack: [
+        "Next.js 14",
+        "TypeScript",
+        "Prisma",
+        "Clerk",
+        "TanStack Query",
+        "React Hook Form",
+        "Zod",
+        "Tailwind CSS",
+        "Framer Motion",
+      ],
+      href: "https://spendy-ashy.vercel.app",
+      repositoryHref: "https://github.com/jojomensah89/spendy",
+      linkLabel: "Open live demo",
+      private: false,
+    },
+  ],
+  openSource: [
+    {
+      project: "GOAT SDK",
+      description:
+        "Improved wallet-viem integration documentation and onboarding for EVM-compatible wallet setup, replacing Solana-specific guidance.",
+      href: "https://github.com/goat-sdk/goat/pull/162",
+      linkLabel: "View merged pull request",
     },
   ],
 } as const;
