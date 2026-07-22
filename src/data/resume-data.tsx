@@ -2,7 +2,7 @@ export const RESUME_DATA = {
   name: "Ebenezer Jojo Mensah",
   initials: "EJM",
   location: "Takoradi, Ghana",
-  locationLink: "https://www.google.com/maps/place/Takoradi/",
+  locationLink: "https://www.google.com/maps/place/Takoradi",
   about: "Software Engineer building dependable digital products.",
   summary:
     "I build thoughtful product experiences across the frontend, backend, and the systems that keep them reliable.",
